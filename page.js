@@ -104,7 +104,7 @@ function removeItem(e)
 {
     if(e.target.classList.contains('delete'))
     {
-      if(confirm('Are You Sure'))
+      if(confirm('Do you want to delete?'))
       {
         var li=e.target.parentElement;
         itemList.removeChild(li);
